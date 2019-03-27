@@ -1,0 +1,30 @@
+<?php
+    
+
+class UserModel extends Dmodel { 
+
+    public function __construct() {
+        parent::__construct(); 
+    }
+            
+
+      
+        public function usersList($table) { 
+        
+        $sql = "SELECT * FROM $table"; 
+        return  $this->db->select($sql);   
+        
+        }
+ 
+      
+        public function userControl($table, $username, $password) {
+            $sql = "SELECT * FROM $table WHERE username = ? AND password = ?";
+            return $this->db->affectedRows($sql, $username, $password);
+        }
+       
+
+        public function getUserData($table, $username, $password){
+            $sql = "SELECT * FROM $table WHERE username = ? AND password = ?";
+            return $this->db->selectUser($sql, $username, $password);
+        }
+}
