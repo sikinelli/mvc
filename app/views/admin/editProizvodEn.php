@@ -139,7 +139,7 @@ form button:hover,.form button:active,.form button:focus {
 <form action="<?php echo BASE_URL; ?>/editProizvodEn/updateProizvod/<?php echo $value['proizvod_id'] ?>" method="post"> 
   <label>
 
-  <a style="color:#fff" href="<?php echo BASE_URL; ?>/editProizvodEn/editProizvod/<?php echo $value['proizvod_id'] ?>"><button type="button" class="btn btn-secondary" >SRP</button></a>
+  <a style="color:#fff" href="<?php echo BASE_URL; ?>/editProizvod/editProizvod/<?php echo $value['proizvod_id'] ?>"><button type="button" class="btn btn-secondary" >SRP</button></a>
     <br><br>  
 
     <p style="color:#2bafa7" class="message">Product name</p>    

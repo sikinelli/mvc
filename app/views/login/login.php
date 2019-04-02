@@ -17,20 +17,7 @@
 
 <script src="https://cdn.ckeditor.com/ckeditor5/12.0.0/classic/ckeditor.js"></script>
 <style>
-#pocetna { /* button vrati se nazad*/
-  padding: 12px 24px;
-  font-weight: bold;
-  background-color: #2bafa7; 
-  border: none;
-  outline: none;
-  border-radius: 3px;
-  cursor: pointer;
-  transition: ease .3s;
-}
-#pocetna:hover {
-  background: rgb(220,220,220);
-  color: rgb(120,120,120);
-}
+
 
 body {
   background: #2bafa7;
@@ -40,7 +27,7 @@ form {
   position: relative;
   z-index: 1;
   background: #FFFFFF;
-  max-width: 700px;
+  max-width: 450px;
   margin: 0 auto 100px;
   padding: 45px;
   text-align: center;
@@ -137,7 +124,7 @@ form button:hover,.form button:active,.form button:focus {
 
 <form action="<?php echo BASE_URL; ?>/Login/loginAuth" method="post">  
   
-  <img src="app/views/login/images/amplitudo.png"  alt="">
+  <img style="max-width: 50%;" src="app/views/login/images/amplitudo.png"  alt="">
   
   <label>    
     <input style="text-align:center" type="text" class="input" name="username" required="1" placeholder="korisnicko ime">  

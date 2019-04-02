@@ -152,7 +152,7 @@ form button:hover,.form button:active,.form button:focus {
     <input type="text" class="input" name="polje_uvodni_tekst" required="1" value="<?php echo $value['proizvod_naziv'] ?>" placeholder="uvodni tekst">
     
     <p style="color:#2bafa7" class="message">Glavni tekst</p> 
-    <textarea id="editor"name="polje_glavni_tekst" placeholder="Opis pozicije" required="1"> </textarea>
+    <textarea id="editor" name="polje_glavni_tekst" placeholder="Opis pozicije" required="1"> </textarea>
     
     <script>
         ClassicEditor

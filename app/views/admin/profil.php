@@ -3,7 +3,7 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        Proizvodi
+        Profil
         <small><?php echo "Korisnik: " .Session::get("username"); ?>   </small>
       </h1>
       
